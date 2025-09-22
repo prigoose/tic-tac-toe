@@ -3,22 +3,22 @@
   grid-template-columns: repeat(3, minmax(80px, 1fr));
 }
 
-.left {
+.columnA{
     border-right: 1px solid #000;
 }
 
-.right {
-    border-left: 1px solid #000;
+.columnB{
+    border-right: 1px solid #000;
 }
 
-.top {
+.row1{border-bottom: 1px solid #000;
+}
+.row2{
     border-bottom: 1px solid #000;
 }
 
-.bottom {
-    border-top: 1px solid #000;
-}
 
 .box {
     aspect-ratio: 1 / 1;
+    box-sizing: border-box;
 }
