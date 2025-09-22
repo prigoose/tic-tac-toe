@@ -5,15 +5,17 @@ function App() {
 
   return (
     <div className="wrapper">
-        <div className="left top box"></div>
-        <div className="middle-column top box"></div>
-        <div className="right top box"></div>
-        <div className="left middle-row box"></div>
-        <div className="middle-column middle-row box"></div>
-        <div className="right middle-row box"></div>
-        <div className="left bottom box"></div>
-        <div className="middle-column bottom box"></div>
-        <div className="right bottom box"></div>
+        <div className="row1 columnA box"></div>
+        <div className="row1 columnB box"></div>
+        <div className="row1 columnC box"></div>
+        <div className="row2 columnA box"></div>
+        <div className="row2 columnB box"></div>
+        <div className="row2 columnC box"></div>
+        <div className="row3 columnA box"></div>
+        <div className="row3 columnB box"></div>
+        <div className="row3 columnC box"></div>
+    
+
     </div>
   )
 }
