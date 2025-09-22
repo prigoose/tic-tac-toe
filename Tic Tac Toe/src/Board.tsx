@@ -1,21 +1,21 @@
 import './App.css'
-import './Board.css'
+
+
 
 function App() {
 
   return (
-    <div className="wrapper">
-        <div className="row1 columnA box"></div>
-        <div className="row1 columnB box"></div>
-        <div className="row1 columnC box"></div>
-        <div className="row2 columnA box"></div>
-        <div className="row2 columnB box"></div>
-        <div className="row2 columnC box"></div>
-        <div className="row3 columnA box"></div>
-        <div className="row3 columnB box"></div>
-        <div className="row3 columnC box"></div>
+    <div className="grid grid-cols-3 min-w-[80px]">
+        <div className="aspect-square border-r border-b"></div>
+        <div className="border-r aspect-square border-b"></div>
+        <div className="aspect-square border-b"></div>
+        <div className="aspect-square border-r border-b"></div>
+        <div className="border-r aspect-square border-b"></div>
+        <div className="aspect-square border-b"></div>
+        <div className="aspect-square border-r"></div>
+        <div className="border-r aspect-square"></div>
+        <div className="aspect-square"></div>
     
-
     </div>
   )
 }
